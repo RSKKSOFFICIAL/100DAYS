@@ -1,2 +1,11 @@
-# 100DAYS
-Blockchain Development, Java , DSA, JavaScript , Web Development
+# 100-DAYs
+
+JAVA+DSA, WEB DEVELOPMENT , BLOCKCHAIN DEVELOPMENT
+
+-HTML
+-JAVASCRIPT
+-SOLIDITY
+-JAVA
+-CSS
+-NODE.JS
+-HARDHAT
