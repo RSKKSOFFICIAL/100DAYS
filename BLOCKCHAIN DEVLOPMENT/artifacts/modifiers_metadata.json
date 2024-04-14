@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modifiers.sol": "modifiers"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modifiers.sol": {
+			"keccak256": "0xeca05e74dbedc854a4f536da6fed7b32b02001f5a2d97a78e9195506adc76504",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82e98c22a916f48ac1e3210a31dcc69dd8d66ff15ad123e56f3d3f870df59490",
+				"dweb:/ipfs/QmS1Yy3tgDhnRKsXy8rUymQKjcJpRzq54brqqUtV6Q77K2"
+			]
+		}
+	},
+	"version": 1
+}

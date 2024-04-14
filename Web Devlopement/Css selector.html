@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector</title>
+    <style>
+        div{
+            background-color: yellowgreen;
+        }
+        /* class selector */
+        .red{
+            background-color: aqua;
+        }
+        /*id selector*/
+        #green{
+            background-color: red;
+        }
+        /*child selector*/
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+        /*Descendant selector*/
+        div p{
+            color: blue;
+            background-color: brown;
+        }
+        /*universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*Pseudo Selector*/
+        a:visited{
+            color: yellow;    
+        }
+        a:link{
+            color: green;    
+        }
+        a:active{
+            color: red;    
+        }
+        a:hover{
+            color: purple;    
+        }
+        p:first-child{
+            background-color: royalblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am a div
+        
+        <p>i'm lara</p>
+    
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <a href="https:www.google.com">Go to google</a>
+    <a href="https:www.facebook2.com">Go to facebook</a>
+    
+</body>
+</html>

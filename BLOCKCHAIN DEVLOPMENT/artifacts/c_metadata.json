@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "generatePass",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Inheritance.sol": "c"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HashFun.sol": {
+			"keccak256": "0xa496f7eeba70925944ef5ac45925d4f44616ca3921b59409b05200a78f84d493",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83c13787636b8250934d5b681230537d20b355547ffeacdcd15564532c593aae",
+				"dweb:/ipfs/QmZPLqD7AJCpexk3B8UB9tYGS8YRLdmg2FGPcV6nGsFN8b"
+			]
+		},
+		"Inheritance.sol": {
+			"keccak256": "0xb16834fa6d4f03558ca1156f0b6fb93f4fd7ee29db15a59538743ada4ff639db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a5b6d05e7c2871fdf005a3c8340414ed6cf751ae994309887548ffd048a2e931",
+				"dweb:/ipfs/Qmc8ggBRTqebJiHv36uCRPfnE1WLV7Sg1p8Ls4jPt3358G"
+			]
+		}
+	},
+	"version": 1
+}

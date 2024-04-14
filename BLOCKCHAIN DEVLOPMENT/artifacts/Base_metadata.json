@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "call",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Abstract.sol": "Base"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Abstract.sol": {
+			"keccak256": "0xb3a1047b051086248c86b0c4ea2f884d39415689fe0cfb680e78d43f01a6670c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://048f1d2658490c82a64c06ed55b56e73a8978f469a645ee7129fb81c9f2f49bc",
+				"dweb:/ipfs/QmWS2B6HBep1RmvqaXWC58Wq4UPJjYtEeopSiEDVrcDHEc"
+			]
+		}
+	},
+	"version": 1
+}

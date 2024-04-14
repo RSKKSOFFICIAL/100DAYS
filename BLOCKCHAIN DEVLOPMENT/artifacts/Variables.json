@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60806040525f805f6101000a81548160ff0219169083151502179055507ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd600155348015604a575f80fd5b50603e8060565f395ff3fe60806040525f80fdfea264697066735822122004d64dd44fc5bb9f7ca797b4165338a0a57676e444d1317f60b3ccab8c570c9164736f6c63430008180033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 PUSH0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP PUSH32 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD PUSH1 0x1 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x4A JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x56 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIV 0xD6 0x4D 0xD4 0x4F 0xC5 0xBB SWAP16 PUSH29 0xA797B4165338A0A57676E444D1317F60B3CCAB8C570C9164736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+			"sourceMap": "61:91:0:-:0;;;113:5;99:19;;;;;;;;;;;;;;;;;;;;138:2;125:15;;61:91;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea264697066735822122004d64dd44fc5bb9f7ca797b4165338a0a57676e444d1317f60b3ccab8c570c9164736f6c63430008180033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIV 0xD6 0x4D 0xD4 0x4F 0xC5 0xBB SWAP16 PUSH29 0xA797B4165338A0A57676E444D1317F60B3CCAB8C570C9164736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+			"sourceMap": "61:91:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "46435",
+				"totalCost": "58835"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

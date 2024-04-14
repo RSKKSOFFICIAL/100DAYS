@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Payables.sol": "Pay"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Payables.sol": {
+			"keccak256": "0x7d77d53abb75d11311edb238f526a314ebe84ce276bad9f9955cac001989450c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d69edc69f32397d2bb1255bad533c2756e91f359f34daef756d5ffa849643146",
+				"dweb:/ipfs/QmWWCzJZSnPBuK9m1xY4do91X3zxPHC5iBC3mYCCJLgrfC"
+			]
+		}
+	},
+	"version": 1
+}

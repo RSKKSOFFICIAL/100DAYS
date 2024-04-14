@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "generatePass",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HashFun.sol": "HashFun"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HashFun.sol": {
+			"keccak256": "0x943878dced1a1752e16a2de7835c1b251f50fff57d7c90f0195f64c120ecb091",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2349260b2b021cac59d368c945d71e0a278126373eb6eb02493cd3d8d69d08f",
+				"dweb:/ipfs/QmeHq81rVpnnnDtG49iArATgFH48rEAknP9vFS7Kt5F4Cv"
+			]
+		}
+	},
+	"version": 1
+}
